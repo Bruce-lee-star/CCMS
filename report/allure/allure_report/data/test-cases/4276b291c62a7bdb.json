@@ -1,0 +1,286 @@
+{
+  "uid" : "4276b291c62a7bdb",
+  "name" : "test_tc000051",
+  "fullName" : "TestInterface.Organization.test_organization.TestOrg#test_tc000051",
+  "historyId" : "b2e49ece31ff6194107cb39112ea26c0",
+  "time" : {
+    "start" : 1602159881483,
+    "stop" : 1602159881914,
+    "duration" : 431
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "init_no_org",
+    "time" : {
+      "start" : 1602159878019,
+      "stop" : 1602159878360,
+      "duration" : 341
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化删除所有部门信息",
+      "time" : {
+        "start" : 1602159878019,
+        "stop" : 1602159968029,
+        "duration" : 90010
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "init_org_data",
+    "time" : {
+      "start" : 1602159879425,
+      "stop" : 1602159879686,
+      "duration" : 261
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化创建一个部门",
+      "time" : {
+        "start" : 1602159879425,
+        "stop" : 1602159967798,
+        "duration" : 88373
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "init_env_info",
+    "time" : {
+      "start" : 1602159877830,
+      "stop" : 1602159878019,
+      "duration" : 189
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "删除allure报告",
+      "time" : {
+        "start" : 1602159877830,
+        "stop" : 1602159877923,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "删除测试覆盖率测试报告",
+      "time" : {
+        "start" : 1602159877923,
+        "stop" : 1602159877981,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "创建allure测试报告tmp文件目录",
+      "time" : {
+        "start" : 1602159877981,
+        "stop" : 1602159878019,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  } ],
+  "afterStages" : [ {
+    "name" : "init_no_org::0",
+    "time" : {
+      "start" : 1602159967801,
+      "stop" : 1602159968029,
+      "duration" : 228
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "销毁删除所有部门",
+      "time" : {
+        "start" : 1602159967801,
+        "stop" : 1602159968029,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "init_org_data::0",
+    "time" : {
+      "start" : 1602159967667,
+      "stop" : 1602159967798,
+      "duration" : 131
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "销毁删除所有部门",
+      "time" : {
+        "start" : 1602159967667,
+        "stop" : 1602159967798,
+        "duration" : 131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "init_env_info::0",
+    "time" : {
+      "start" : 1602159963091,
+      "stop" : 1602159967175,
+      "duration" : 4084
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "环境配置文件信息",
+      "time" : {
+        "start" : 1602159963091,
+        "stop" : 1602159967175,
+        "duration" : 4084
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取相关库的版本信息",
+        "time" : {
+          "start" : 1602159963092,
+          "stop" : 1602159967051,
+          "duration" : 3959
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "修改id存在的部门"
+  }, {
+    "name" : "feature",
+    "value" : "当前公司已经有分部"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestInterface.Organization"
+  }, {
+    "name" : "suite",
+    "value" : "test_organization"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestOrg"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DFTD5FJ"
+  }, {
+    "name" : "thread",
+    "value" : "12376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestInterface.Organization.test_organization"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4276b291c62a7bdb.json",
+  "parameterValues" : [ ]
+}

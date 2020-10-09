@@ -1,0 +1,111 @@
+# API配置模板，要求：API的名称需要与继承BaseAPI的子类同名
+OrganizationAPI: #公司部门
+  url:
+    /api/v4/organizations
+  add:
+    "name": name
+    "parent": parent
+    "sort_no": 100
+    "hidden": False
+    "space": space_id
+
+  modify:
+    "$set":
+      "name": name
+      "parent": parent
+      "sort_no": 100
+      "hidden": False
+      "space": space_id
+
+AccountsAPI: # 签约对象
+  url:
+    /api/v4/accounts
+  add:
+    "name": name
+    "category": 1
+    "registered_capital": 0
+    "company_ids": [company_ids]
+    "status": 1
+    "space": space_id
+
+  modify:
+    "$set":
+      "name": name
+      "phone": phone_num
+      "address": address
+      "registered_capital": 0
+      "category": 1
+      "credit_code": credit_code
+      "company_ids": [company_ids]
+      "status": "2"
+      "space": space_id
+
+ContractTypesAPI: # 合同类型
+  url:
+    /api/v4/contract_types
+  add:
+    name: name
+    code: code_num
+    space: space_id
+
+  modify:
+    $set:
+      name: name
+      code: code_num
+      space: space_id
+
+ContractAPI: # 合同
+  url:
+    /api/v4/contracts
+  add:
+    "no": contract_num
+    "create_date": create_date
+    "company_id": company_id
+    "othercompany": othercompany
+    "project": project
+    "contract_type": contract_type
+    "name": name
+    "bop": bop
+    "applicant": applicant
+    "owner": owner
+    "virtual_contract": virtual_contract
+    "amount": 0
+    "amount_type": "固定"
+    "receive_payment_type": receive_payment_type
+    "paid_amount": 0
+    "unpaid_amount": 0
+    "receipted_amount": 0
+    "unclaimed_votes_amount": 0
+    "received_amount": 0
+    "unreceived_amount": 0
+    "for_invoicing_amount": 0
+    "unfor_invoicing_amount": 0
+    "space": spaceid
+
+  modify:
+    $set:
+        "no": contract_num
+        "create_date": "2020-07-07"
+        "company_id": "QmBLZC5zKaEMu96QN"
+        "othercompany": "38n6uHtDsdfmQ72jT"
+        "project": "jgrJCeMttzD8pHZhy"
+        "contract_type": "7Gy5aL2sM3gqnsg77"
+        "name": "test001"
+        "bop": "付款合同"
+        "applicant": "5efae24570ff1b0012038be1"
+        "owner": ower
+        "virtual_contract": "合同"
+        "amount": 0
+        "amount_type": "固定"
+        "receive_payment_type": "一次性"
+        "paid_amount": 0
+        "unpaid_amount": 0
+        "receipted_amount": 0
+        "unclaimed_votes_amount": 0
+        "received_amount": 0
+        "unreceived_amount": 0
+        "for_invoicing_amount": 0
+        "unfor_invoicing_amount": 0
+        "space": space_id
+
+

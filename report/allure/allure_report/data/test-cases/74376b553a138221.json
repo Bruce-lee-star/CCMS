@@ -1,0 +1,265 @@
+{
+  "uid" : "74376b553a138221",
+  "name" : "test_tc005001[中秋佳节-会议室A01-全员参与，勿迟到!!]",
+  "fullName" : "WebUI.Schedule.test_schedule.TestSchedule#test_tc005001",
+  "historyId" : "b68a56ffe1cd8bdf4cba43f9342089d6",
+  "time" : {
+    "start" : 1602159922487,
+    "stop" : 1602159944229,
+    "duration" : 21742
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "init_browser",
+    "time" : {
+      "start" : 1602159890604,
+      "stop" : 1602159921521,
+      "duration" : 30917
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "打开浏览器",
+      "time" : {
+        "start" : 1602159890604,
+        "stop" : 1602159921521,
+        "duration" : 30917
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "before_auto_ui",
+    "time" : {
+      "start" : 1602159921523,
+      "stop" : 1602159922486,
+      "duration" : 963
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "init_env_info",
+    "time" : {
+      "start" : 1602159877830,
+      "stop" : 1602159878019,
+      "duration" : 189
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "删除allure报告",
+      "time" : {
+        "start" : 1602159877830,
+        "stop" : 1602159877923,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "删除测试覆盖率测试报告",
+      "time" : {
+        "start" : 1602159877923,
+        "stop" : 1602159877981,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "创建allure测试报告tmp文件目录",
+      "time" : {
+        "start" : 1602159877981,
+        "stop" : 1602159878019,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  } ],
+  "afterStages" : [ {
+    "name" : "init_browser::0",
+    "time" : {
+      "start" : 1602159960943,
+      "stop" : 1602159963090,
+      "duration" : 2147
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "关闭浏览器",
+      "time" : {
+        "start" : 1602159960943,
+        "stop" : 1602159963090,
+        "duration" : 2147
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "before_auto_ui::0",
+    "time" : {
+      "start" : 1602159944230,
+      "stop" : 1602159945480,
+      "duration" : 1250
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "init_env_info::0",
+    "time" : {
+      "start" : 1602159963091,
+      "stop" : 1602159967175,
+      "duration" : 4084
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "环境配置文件信息",
+      "time" : {
+        "start" : 1602159963091,
+        "stop" : 1602159967175,
+        "duration" : 4084
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取相关库的版本信息",
+        "time" : {
+          "start" : 1602159963092,
+          "stop" : 1602159967051,
+          "duration" : 3959
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "中秋佳节"
+  }, {
+    "name" : "feature",
+    "value" : "日程功能测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "WebUI.Schedule"
+  }, {
+    "name" : "suite",
+    "value" : "test_schedule"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSchedule"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DFTD5FJ"
+  }, {
+    "name" : "thread",
+    "value" : "12376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "WebUI.Schedule.test_schedule"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "address",
+    "value" : "'会议室A01'"
+  }, {
+    "name" : "desc",
+    "value" : "'全员参与，勿迟到!!'"
+  }, {
+    "name" : "topic_name",
+    "value" : "'中秋佳节'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "74376b553a138221.json",
+  "parameterValues" : [ "'会议室A01'", "'全员参与，勿迟到!!'", "'中秋佳节'" ]
+}

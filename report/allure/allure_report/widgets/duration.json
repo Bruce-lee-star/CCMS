@@ -1,0 +1,261 @@
+[ {
+  "uid" : "fa42c44616902b43",
+  "name" : "创建新的签约对象",
+  "time" : {
+    "start" : 1602159882876,
+    "stop" : 1602159883113,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8bbcec9ae81f08b",
+  "name" : "test_tc002051",
+  "time" : {
+    "start" : 1602159886721,
+    "stop" : 1602159886982,
+    "duration" : 261
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "168775c353223409",
+  "name" : "test_tc000091",
+  "time" : {
+    "start" : 1602159879159,
+    "stop" : 1602159879418,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43a49a0315e87267",
+  "name" : "删除id不存在的签约对象",
+  "time" : {
+    "start" : 1602159883413,
+    "stop" : 1602159883768,
+    "duration" : 355
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f8830b3e7bd56db",
+  "name" : "test_tc001001",
+  "time" : {
+    "start" : 1602159879793,
+    "stop" : 1602159880029,
+    "duration" : 236
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca5ce975464d8b8f",
+  "name" : "test_tc002092",
+  "time" : {
+    "start" : 1602159886993,
+    "stop" : 1602159887323,
+    "duration" : 330
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8beae099df3e0cd3",
+  "name" : "test_tc005001[国庆快乐-会议室A03-全员参与，勿迟到!!]",
+  "time" : {
+    "start" : 1602159946698,
+    "stop" : 1602159959643,
+    "duration" : 12945
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd3361b26e579c81",
+  "name" : "test_tc000001",
+  "time" : {
+    "start" : 1602159880873,
+    "stop" : 1602159881307,
+    "duration" : 434
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "639cc02faf3b82d6",
+  "name" : "test_tc001052",
+  "time" : {
+    "start" : 1602159880174,
+    "stop" : 1602159880409,
+    "duration" : 235
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43cb0e8b90019cf0",
+  "name" : "test_tc002052",
+  "time" : {
+    "start" : 1602159884269,
+    "stop" : 1602159884480,
+    "duration" : 211
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74376b553a138221",
+  "name" : "test_tc005001[中秋佳节-会议室A01-全员参与，勿迟到!!]",
+  "time" : {
+    "start" : 1602159922487,
+    "stop" : 1602159944229,
+    "duration" : 21742
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75f04607b06c957f",
+  "name" : "test_tc003092",
+  "time" : {
+    "start" : 1602159890177,
+    "stop" : 1602159890485,
+    "duration" : 308
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40dc6adafe8d8d9c",
+  "name" : "test_tc001091",
+  "time" : {
+    "start" : 1602159880586,
+    "stop" : 1602159880858,
+    "duration" : 272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ab2c323a1629bff",
+  "name" : "test_tc000052",
+  "time" : {
+    "start" : 1602159881919,
+    "stop" : 1602159882235,
+    "duration" : 316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "712fbc1b96b01c75",
+  "name" : "test_tc000092",
+  "time" : {
+    "start" : 1602159882244,
+    "stop" : 1602159882538,
+    "duration" : 294
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8cf820270fc5278e",
+  "name" : "test_tc003001",
+  "time" : {
+    "start" : 1602159887561,
+    "stop" : 1602159887880,
+    "duration" : 319
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e02a468161556c43",
+  "name" : "修改id存在签约对象",
+  "time" : {
+    "start" : 1602159883118,
+    "stop" : 1602159883402,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ef4a578e4cec8bf",
+  "name" : "test_tc003052",
+  "time" : {
+    "start" : 1602159888025,
+    "stop" : 1602159888322,
+    "duration" : 297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c81f950030874686",
+  "name" : "test_tc000001",
+  "time" : {
+    "start" : 1602159878361,
+    "stop" : 1602159878758,
+    "duration" : 397
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42491b60b2a2c2dd",
+  "name" : "test_tc002002",
+  "time" : {
+    "start" : 1602159886343,
+    "stop" : 1602159886584,
+    "duration" : 241
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "917a6f3e49a15c7",
+  "name" : "test_tc003002",
+  "time" : {
+    "start" : 1602159889298,
+    "stop" : 1602159889581,
+    "duration" : 283
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71e8d84bd2b2da77",
+  "name" : "test_tc003091",
+  "time" : {
+    "start" : 1602159888508,
+    "stop" : 1602159888760,
+    "duration" : 252
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4276b291c62a7bdb",
+  "name" : "test_tc000051",
+  "time" : {
+    "start" : 1602159881483,
+    "stop" : 1602159881914,
+    "duration" : 431
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a22157bfbbf7c54",
+  "name" : "test_tc002001",
+  "time" : {
+    "start" : 1602159883895,
+    "stop" : 1602159884117,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "984d5070b5f96b16",
+  "name" : "test_tc002091",
+  "time" : {
+    "start" : 1602159884610,
+    "stop" : 1602159885971,
+    "duration" : 1361
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7cca4dcc8700c99",
+  "name" : "test_tc003051",
+  "time" : {
+    "start" : 1602159889704,
+    "stop" : 1602159890165,
+    "duration" : 461
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

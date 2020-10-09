@@ -1,0 +1,441 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "当前公司没有分部",
+    "children" : [ {
+      "name" : "创建分部",
+      "children" : [ {
+        "name" : "test_tc000001",
+        "uid" : "c81f950030874686",
+        "parentUid" : "f4d1368ec34b11efbf77eb5f7e07b89a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159878361,
+          "stop" : 1602159878758,
+          "duration" : 397
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4d1368ec34b11efbf77eb5f7e07b89a"
+    }, {
+      "name" : "test_tc000091",
+      "uid" : "168775c353223409",
+      "parentUid" : "410871596813dc864ce30b194a88a643",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602159879159,
+        "stop" : 1602159879418,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "410871596813dc864ce30b194a88a643"
+  }, {
+    "name" : "当前公司没有签约对象",
+    "children" : [ {
+      "name" : "添加签约对象",
+      "children" : [ {
+        "name" : "test_tc001001",
+        "uid" : "8f8830b3e7bd56db",
+        "parentUid" : "f2e0feda6de18badf39dd84de1864f7f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159879793,
+          "stop" : 1602159880029,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f2e0feda6de18badf39dd84de1864f7f"
+    }, {
+      "name" : "修改id不存在签约对象",
+      "children" : [ {
+        "name" : "test_tc001052",
+        "uid" : "639cc02faf3b82d6",
+        "parentUid" : "04eb87982f74307036f7a71b88987caa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159880174,
+          "stop" : 1602159880409,
+          "duration" : 235
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "04eb87982f74307036f7a71b88987caa"
+    }, {
+      "name" : "删除id存在的签约对象",
+      "children" : [ {
+        "name" : "test_tc001091",
+        "uid" : "40dc6adafe8d8d9c",
+        "parentUid" : "8e834be0a54f53abc89ecc3465189ca8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159880586,
+          "stop" : 1602159880858,
+          "duration" : 272
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e834be0a54f53abc89ecc3465189ca8"
+    } ],
+    "uid" : "fa6d1e3b63d4e431cc27989ecd0d681d"
+  }, {
+    "name" : "当前公司已经有分部",
+    "children" : [ {
+      "name" : "创建一个新的部门",
+      "children" : [ {
+        "name" : "test_tc000001",
+        "uid" : "dd3361b26e579c81",
+        "parentUid" : "75eee640fdcdfce40d95d32084e2ce7e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159880873,
+          "stop" : 1602159881307,
+          "duration" : 434
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75eee640fdcdfce40d95d32084e2ce7e"
+    }, {
+      "name" : "修改id存在的部门",
+      "children" : [ {
+        "name" : "test_tc000051",
+        "uid" : "4276b291c62a7bdb",
+        "parentUid" : "0bd2387d1931ef2f25dcf101f4afc651",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159881483,
+          "stop" : 1602159881914,
+          "duration" : 431
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0bd2387d1931ef2f25dcf101f4afc651"
+    }, {
+      "name" : "修改id不存在的部门",
+      "children" : [ {
+        "name" : "test_tc000052",
+        "uid" : "1ab2c323a1629bff",
+        "parentUid" : "56bf3cbfef338efcb3fa96319f2760e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159881919,
+          "stop" : 1602159882235,
+          "duration" : 316
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "56bf3cbfef338efcb3fa96319f2760e8"
+    }, {
+      "name" : "删除不存在的id",
+      "children" : [ {
+        "name" : "test_tc000092",
+        "uid" : "712fbc1b96b01c75",
+        "parentUid" : "88e3ccd51c3742add64388199624a14e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159882244,
+          "stop" : 1602159882538,
+          "duration" : 294
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "88e3ccd51c3742add64388199624a14e"
+    } ],
+    "uid" : "d0b92f60627c8e64b3d1654c421fb9e8"
+  }, {
+    "name" : "当前公司已经存在签约对象",
+    "children" : [ {
+      "name" : "创建新的签约对象",
+      "uid" : "fa42c44616902b43",
+      "parentUid" : "3a3bf8956925455a2b800184841c5f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602159882876,
+        "stop" : 1602159883113,
+        "duration" : 237
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "修改id存在签约对象",
+      "uid" : "e02a468161556c43",
+      "parentUid" : "3a3bf8956925455a2b800184841c5f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602159883118,
+        "stop" : 1602159883402,
+        "duration" : 284
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "删除id不存在的签约对象",
+      "uid" : "43a49a0315e87267",
+      "parentUid" : "3a3bf8956925455a2b800184841c5f0e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1602159883413,
+        "stop" : 1602159883768,
+        "duration" : 355
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3a3bf8956925455a2b800184841c5f0e"
+  }, {
+    "name" : "当前公司没有合同类型",
+    "children" : [ {
+      "name" : "增加名称不同的合同类型",
+      "children" : [ {
+        "name" : "test_tc002001",
+        "uid" : "4a22157bfbbf7c54",
+        "parentUid" : "516fd22177ab04c79f2ac2c4b71a0f58",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159883895,
+          "stop" : 1602159884117,
+          "duration" : 222
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "516fd22177ab04c79f2ac2c4b71a0f58"
+    }, {
+      "name" : "删除id不存在的合同类型",
+      "children" : [ {
+        "name" : "test_tc002052",
+        "uid" : "43cb0e8b90019cf0",
+        "parentUid" : "75547bbd58abdab16f2ff65adb98163a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159884269,
+          "stop" : 1602159884480,
+          "duration" : 211
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "75547bbd58abdab16f2ff65adb98163a"
+    }, {
+      "name" : "删除id存在的合同类型",
+      "children" : [ {
+        "name" : "test_tc002091",
+        "uid" : "984d5070b5f96b16",
+        "parentUid" : "d97f9fcd6d2e55d1c64e520e21140af0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159884610,
+          "stop" : 1602159885971,
+          "duration" : 1361
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d97f9fcd6d2e55d1c64e520e21140af0"
+    } ],
+    "uid" : "b0bee2fa0f58af63ac6964bf38dea589"
+  }, {
+    "name" : "当前系统已有合同类型",
+    "children" : [ {
+      "name" : "创建合同",
+      "children" : [ {
+        "name" : "test_tc002002",
+        "uid" : "42491b60b2a2c2dd",
+        "parentUid" : "57624c60a02271bf1e4741d1736655f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159886343,
+          "stop" : 1602159886584,
+          "duration" : 241
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "57624c60a02271bf1e4741d1736655f4"
+    }, {
+      "name" : "修改id存在的合同",
+      "children" : [ {
+        "name" : "test_tc002051",
+        "uid" : "8bbcec9ae81f08b",
+        "parentUid" : "275ffe24c6cd4d9172921dda67d81cae",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159886721,
+          "stop" : 1602159886982,
+          "duration" : 261
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "275ffe24c6cd4d9172921dda67d81cae"
+    }, {
+      "name" : "删除id不存在的合同",
+      "children" : [ {
+        "name" : "test_tc002092",
+        "uid" : "ca5ce975464d8b8f",
+        "parentUid" : "9d26c9e1645908f5f78a29ea5a69fc84",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159886993,
+          "stop" : 1602159887323,
+          "duration" : 330
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d26c9e1645908f5f78a29ea5a69fc84"
+    } ],
+    "uid" : "0290906fc8fd043abe7fa89597c64777"
+  }, {
+    "name" : "当前系统没有合同",
+    "children" : [ {
+      "name" : "创建合同",
+      "children" : [ {
+        "name" : "test_tc003001",
+        "uid" : "8cf820270fc5278e",
+        "parentUid" : "9b0e2da9bf0286b1d391bcbef2fe93ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159887561,
+          "stop" : 1602159887880,
+          "duration" : 319
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b0e2da9bf0286b1d391bcbef2fe93ee"
+    }, {
+      "name" : "修改id不存在的合同",
+      "children" : [ {
+        "name" : "test_tc003052",
+        "uid" : "3ef4a578e4cec8bf",
+        "parentUid" : "290f0efa21a0d780287571f9317e4026",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159888025,
+          "stop" : 1602159888322,
+          "duration" : 297
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "290f0efa21a0d780287571f9317e4026"
+    }, {
+      "name" : "删除id存在的合同",
+      "children" : [ {
+        "name" : "test_tc003091",
+        "uid" : "71e8d84bd2b2da77",
+        "parentUid" : "d1a955794416f3a828c5e12e3cbe9e78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159888508,
+          "stop" : 1602159888760,
+          "duration" : 252
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d1a955794416f3a828c5e12e3cbe9e78"
+    } ],
+    "uid" : "95a11cc96fa731453dc14809e20cf511"
+  }, {
+    "name" : "当前系统有合同",
+    "children" : [ {
+      "name" : "创建合同",
+      "children" : [ {
+        "name" : "test_tc003002",
+        "uid" : "917a6f3e49a15c7",
+        "parentUid" : "ccd47a0198bd6b947d02a52ee2f4484f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159889298,
+          "stop" : 1602159889581,
+          "duration" : 283
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ccd47a0198bd6b947d02a52ee2f4484f"
+    }, {
+      "name" : "修改id存在的合同",
+      "children" : [ {
+        "name" : "test_tc003051",
+        "uid" : "e7cca4dcc8700c99",
+        "parentUid" : "ea742b1c5b7ba1cae5ab03d07af41e66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159889704,
+          "stop" : 1602159890165,
+          "duration" : 461
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ea742b1c5b7ba1cae5ab03d07af41e66"
+    }, {
+      "name" : "修改id不存在的合同",
+      "children" : [ {
+        "name" : "test_tc003092",
+        "uid" : "75f04607b06c957f",
+        "parentUid" : "c9cedce2ae551c4e794f6189a5c562c6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159890177,
+          "stop" : 1602159890485,
+          "duration" : 308
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c9cedce2ae551c4e794f6189a5c562c6"
+    } ],
+    "uid" : "ab0a51b5facfac099c6ba1436e51c79d"
+  }, {
+    "name" : "日程功能测试",
+    "children" : [ {
+      "name" : "中秋佳节",
+      "children" : [ {
+        "name" : "test_tc005001[中秋佳节-会议室A01-全员参与，勿迟到!!]",
+        "uid" : "74376b553a138221",
+        "parentUid" : "7dc6d099b27d13d8f465659b99d6f9a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159922487,
+          "stop" : 1602159944229,
+          "duration" : 21742
+        },
+        "flaky" : false,
+        "parameters" : [ "'会议室A01'", "'全员参与，勿迟到!!'", "'中秋佳节'" ]
+      } ],
+      "uid" : "7dc6d099b27d13d8f465659b99d6f9a9"
+    }, {
+      "name" : "国庆快乐",
+      "children" : [ {
+        "name" : "test_tc005001[国庆快乐-会议室A03-全员参与，勿迟到!!]",
+        "uid" : "8beae099df3e0cd3",
+        "parentUid" : "e12861793f817ae5b85f0e48ab004e30",
+        "status" : "passed",
+        "time" : {
+          "start" : 1602159946698,
+          "stop" : 1602159959643,
+          "duration" : 12945
+        },
+        "flaky" : false,
+        "parameters" : [ "'会议室A03'", "'全员参与，勿迟到!!'", "'国庆快乐'" ]
+      } ],
+      "uid" : "e12861793f817ae5b85f0e48ab004e30"
+    } ],
+    "uid" : "b5bb56d5d30b90720e5df2d1f0ac2bf6"
+  } ]
+}

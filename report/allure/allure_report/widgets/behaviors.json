@@ -1,0 +1,103 @@
+{
+  "total" : 9,
+  "items" : [ {
+    "uid" : "d0b92f60627c8e64b3d1654c421fb9e8",
+    "name" : "当前公司已经有分部",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "fa6d1e3b63d4e431cc27989ecd0d681d",
+    "name" : "当前公司没有签约对象",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "3a3bf8956925455a2b800184841c5f0e",
+    "name" : "当前公司已经存在签约对象",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "b0bee2fa0f58af63ac6964bf38dea589",
+    "name" : "当前公司没有合同类型",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "0290906fc8fd043abe7fa89597c64777",
+    "name" : "当前系统已有合同类型",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "95a11cc96fa731453dc14809e20cf511",
+    "name" : "当前系统没有合同",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "ab0a51b5facfac099c6ba1436e51c79d",
+    "name" : "当前系统有合同",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "410871596813dc864ce30b194a88a643",
+    "name" : "当前公司没有分部",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b5bb56d5d30b90720e5df2d1f0ac2bf6",
+    "name" : "日程功能测试",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  } ]
+}

@@ -1,0 +1,25 @@
+LoginPage: # 登录页面
+  email_input: ["id","email"]
+  password_input : ["id","password"]
+  login_btn: ["css selector", "button.MuiButton-containedPrimary .MuiButton-label"]
+
+MainPage: # 主页
+  daily_schedule_a: ["css selector","ul>li:nth-last-child(1)>a.creator-object-nav-events>span"]
+  person_img: ["css selector",".slds-avatar_circle img"]
+  username_span: ["css selector",".slds-listbox__option-text"]
+  exit_a: ["link text","退出"]
+  schedule_list_a: ["css selector",".slds-truncate a"]
+
+SchedulePage: # 日程界面
+  new_btn: ["css selector",".list-action-custom-standard_new"]
+  topic_name_input: ["name", "name"]
+  start_date_input: ["css selector", "[data-schema-key='start'] .dx-texteditor-input"]
+  end_date_input: ["css selector","[data-schema-key='end'] .dx-texteditor-input"]
+  users_selected: ["css selector", ".selectUser-box"]
+  users_deselected: ["css selector","#valueLabel li a"]
+  target_select_user: ["css selector",".dataTables_wrapper tr:nth-child(2) td:nth-child(2)"]
+  confirm_btn: ["id","confirm"]
+  all_day_checkbox: ["xpath","//label[text()='全天事件']"]
+  address_input: ["name","location"]
+  desc_area: ["css selector",".widearea"]
+  save_btn: ["css selector",".btn-insert"]

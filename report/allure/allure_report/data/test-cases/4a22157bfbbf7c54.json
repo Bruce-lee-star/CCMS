@@ -1,0 +1,316 @@
+{
+  "uid" : "4a22157bfbbf7c54",
+  "name" : "test_tc002001",
+  "fullName" : "TestInterface.Organization.Accounts.test_no_constracts_type.TestConstractsNoType#test_tc002001",
+  "historyId" : "c83a04b4c9b1ddbe1b03551de69e7aed",
+  "time" : {
+    "start" : 1602159883895,
+    "stop" : 1602159884117,
+    "duration" : 222
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1602159883893,
+      "stop" : 1602159883893,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "after_tc002001",
+    "time" : {
+      "start" : 1602159883893,
+      "stop" : 1602159883894,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "init_constract_types",
+    "time" : {
+      "start" : 1602159883780,
+      "stop" : 1602159883892,
+      "duration" : 112
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "fixture前置操作：删除所有的合同类型",
+      "time" : {
+        "start" : 1602159883780,
+        "stop" : 1602159886091,
+        "duration" : 2311
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "增加合同类型",
+        "time" : {
+          "start" : 1602159883895,
+          "stop" : 1602159884117,
+          "duration" : 222
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  }, {
+    "name" : "init_env_info",
+    "time" : {
+      "start" : 1602159877830,
+      "stop" : 1602159878019,
+      "duration" : 189
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "删除allure报告",
+      "time" : {
+        "start" : 1602159877830,
+        "stop" : 1602159877923,
+        "duration" : 93
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "删除测试覆盖率测试报告",
+      "time" : {
+        "start" : 1602159877923,
+        "stop" : 1602159877981,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "创建allure测试报告tmp文件目录",
+      "time" : {
+        "start" : 1602159877981,
+        "stop" : 1602159878019,
+        "duration" : 38
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 3
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1602159885974,
+      "stop" : 1602159885975,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "after_tc002001::0",
+    "time" : {
+      "start" : 1602159884118,
+      "stop" : 1602159884259,
+      "duration" : 141
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "后置操作：删除创建的合同类型",
+      "time" : {
+        "start" : 1602159884118,
+        "stop" : 1602159884259,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "init_constract_types::0",
+    "time" : {
+      "start" : 1602159885977,
+      "stop" : 1602159886091,
+      "duration" : 114
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "fixture后置操作：删除所有的合同类型",
+      "time" : {
+        "start" : 1602159885977,
+        "stop" : 1602159886091,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "init_env_info::0",
+    "time" : {
+      "start" : 1602159963091,
+      "stop" : 1602159967175,
+      "duration" : 4084
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "环境配置文件信息",
+      "time" : {
+        "start" : 1602159963091,
+        "stop" : 1602159967175,
+        "duration" : 4084
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "获取相关库的版本信息",
+        "time" : {
+          "start" : 1602159963092,
+          "stop" : 1602159967051,
+          "duration" : 3959
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : false,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 2
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "当前公司没有合同类型"
+  }, {
+    "name" : "story",
+    "value" : "增加名称不同的合同类型"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestInterface.Organization.Accounts"
+  }, {
+    "name" : "suite",
+    "value" : "test_no_constracts_type"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConstractsNoType"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-DFTD5FJ"
+  }, {
+    "name" : "thread",
+    "value" : "12376-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestInterface.Organization.Accounts.test_no_constracts_type"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4a22157bfbbf7c54.json",
+  "parameterValues" : [ ]
+}
